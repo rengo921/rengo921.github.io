@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Bo-Blog多人版的安裝 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="1.下載軟體：#wget http:&#x2F;&#x2F;xoops.tnc.edu.tw&#x2F;uploads&#x2F;bo\_blog.zip   2.#unzip bo_blog.zip將檔案放到xoops資料夾下，我是放在 &#x2F;var&#x2F;www&#x2F;html&#x2F;var&#x2F;www&#x2F;html&#x2F;blog &lt;—-原始程式&#x2F;var&#x2F;www&amp;#x2F">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Bo-Blog多人版的安裝">
+<meta property="og:url" content="http://example.com/2008/11/04/bo-blog%E5%A4%9A%E4%BA%BA%E7%89%88%E7%9A%84%E5%AE%89%E8%A3%9D-2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1.下載軟體：#wget http:&#x2F;&#x2F;xoops.tnc.edu.tw&#x2F;uploads&#x2F;bo\_blog.zip   2.#unzip bo_blog.zip將檔案放到xoops資料夾下，我是放在 &#x2F;var&#x2F;www&#x2F;html&#x2F;var&#x2F;www&#x2F;html&#x2F;blog &lt;—-原始程式&#x2F;var&#x2F;www&amp;#x2F">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2008-11-03T17:12:00.000Z">
+<meta property="article:modified_time" content="2023-01-28T19:27:53.822Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="教學文章">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-bo-blog多人版的安裝-2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2008/11/04/bo-blog%E5%A4%9A%E4%BA%BA%E7%89%88%E7%9A%84%E5%AE%89%E8%A3%9D-2/" class="article-date">
+  <time class="dt-published" datetime="2008-11-03T17:12:00.000Z" itemprop="datePublished">2008-11-04</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/uncategorized/">uncategorized</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      Bo-Blog多人版的安裝
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>1.下載軟體：#wget <a target="_blank" rel="noopener" href="http://xoops.tnc.edu.tw/uploads/bo/_blog.zip">http://xoops.tnc.edu.tw/uploads/bo\_blog.zip</a>  </p>
+<p>2.#unzip bo_blog.zip將檔案放到xoops資料夾下，我是放在 &#x2F;var&#x2F;www&#x2F;html<br>&#x2F;var&#x2F;www&#x2F;html&#x2F;blog &lt;—-原始程式<br>&#x2F;var&#x2F;www&#x2F;html&#x2F;modules&#x2F;bo_blog &lt;—-模組程式  </p>
+<p>3.開啟blog資料夾的寫入權限：chmod 777 blog &lt;—-原始程式  </p>
+<p>4.更改模組的語系為utf8（若系統使用big5，則省略此步驟。）<br>#cd &#x2F;var&#x2F;www&#x2F;html&#x2F;modules&#x2F;bo_blog&#x2F;language<br>#mv tchinese tchinese_big5<br>#mv tchinese_utf8 tchinese  </p>
+<p>5.用系統管理者身份登入XOOPS後台，安裝多人版bo-blog模組  </p>
+<p>6.安裝完成後，會回到bo-blog模組畫面，請記得要先去後台設定mysql的管理者帳號和密碼。偏好設定&#x2F;多人Bo-Blog&#x2F;模組偏好設定。這裡需要設定管理MySQL資料庫的「帳號」和「密碼」  </p>
+<p>7.到模組&#x2F;多人Bo-Blog&#x2F;主管理介面，然後按「回模組首頁」，應該會看到「啟動我的部落格」按鈕，按一下該按鈕啟動部落格。  </p>
+<p>這樣就安裝好了嗎？好戲才正要上演呢！在按下啟動部落格的瞬間，畫面傳來下面的錯誤訊息，連原本安裝好的XOOPS都無法瀏覽了！<br>This page cannot be displayed due to an internal error.<br>If you are the administrator of this site, please visit the Xoops Troubleshooting Page for assistance.<br>Helpful infomation you should provide while asking for assistance:<br>Error [Xoops]: Unable to connect to database in file class&#x2F;database&#x2F;databasefactory.php line 34  </p>
+<p>8.重新建立安裝XOOPS時的帳戶：<br>原來，在啟動Bo-Blog的同時，安裝XOOPS時的MySQL帳戶的密碼被改掉了。此時，用phpMyAdmin登入資料庫管理畫面，進入『權限』項目，將原來安裝XOOPS時的帳戶給刪除，再建立一個一樣的帳戶，（帳戶和密碼必須要和原來安裝XOOPS時的帳戶一樣。）建好登出後，XOOPS恢復了瀏覽的畫面了！  </p>
+<p>接著，進入xoops後台，多人Bo-Blog主管理介面，點選部落格，出現了另一串錯誤訊息。真是好事多磨也…<br>Bo-Blog Database System Tips: Can not connect to MySQL server<br>Time: 2008-5-31 11:12am<br>Script:<br>Error: Access denied for user ‘root‘@’localhost’ (using password: YES)<br>Errno.: 1045  </p>
+<p>9.更改個人部落格內的設定檔：<br>#nano &#x2F;var&#x2F;www&#x2F;html&#x2F;blog&#x2F;1&#x2F;data&#x2F;config.php<br>第4行有紀錄mysql密碼，我看到一長串密碼，但不是我設定的MySQL帳戶的密碼，所以我把他改成和xoops中設定的密碼。<br>$db_password&#x3D;”XXXXXXX”;<br>這樣就可以囉！  </p>
+<p>10.修正驗證碼無法顯示的問題：（系統必須安裝GD函數資料庫）<br>var&#x2F;www&#x2F;html&#x2F;xoops&#x2F;blog&#x2F;source&#x2F;inc&#x2F;securitycode.php<br>把require_once (“..&#x2F;data&#x2F;config.php);<br>改成require_once( “&#x2F;var&#x2F;www&#x2F;html&#x2F;blog&#x2F;1&#x2F;data&#x2F;config.php”);<br>存檔後即可使用驗證碼。  </p>
+<p>11.修正進入相簿後一片空白的問題：<br>#cd &#x2F;var&#x2F;www&#x2F;html&#x2F;blog&#x2F;source&#x2F;plugin<br>#chmod 777 DDRR_Album&#x2F;<br>#chmod 777 DDRR_Album&#x2F;template_c&#x2F;<br>#chmod 777 DDRR_Album&#x2F;config&#x2F;<br>#chmod 777 DDRR_Album&#x2F;cache&#x2F;<br>#chmod 666 DDRR_Album&#x2F;config&#x2F;config_xml.php  </p>
+<p>※以上資料摘錄自『學鋼琴的老師』：<a target="_blank" rel="noopener" href="http://media.tpes.hcc.edu.tw/xoops/blog/1">http://media.tpes.hcc.edu.tw/xoops/blog/1</a></p>
+<p>by rengo</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2008/11/04/bo-blog%E5%A4%9A%E4%BA%BA%E7%89%88%E7%9A%84%E5%AE%89%E8%A3%9D-2/" data-id="cldgck9ze002fr8847xk06z3h" data-title="Bo-Blog多人版的安裝" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" rel="tag">教學文章</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2008/11/15/firefoxy-%E5%84%AA%E5%8C%96/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          firefoxy 優化
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2008/11/04/bo-blog%E5%A4%9A%E4%BA%BA%E7%89%88%E7%9A%84%E5%AE%89%E8%A3%9D/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Bo-Blog多人版的安裝</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/1/">1</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blogger/">Blogger</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/FireFox/">FireFox</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Google/">Google</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/uncategorized/">uncategorized</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/xp/">xp</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/">免費資源</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/">好康資訊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E5%AF%B6%E5%BA%AB%E5%8D%80/">教學寶庫區</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/">教學文章</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/">未分類</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/">線上新聞</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blogger/" rel="tag">Blogger</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/FireFox/" rel="tag">FireFox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google/" rel="tag">google</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xp/" rel="tag">xp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" rel="tag">免費資源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" rel="tag">好康資訊</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" rel="tag">教學文章</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" rel="tag">線上新聞</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" rel="tag">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Blogger/" style="font-size: 16px;">Blogger</a> <a href="/tags/FireFox/" style="font-size: 14px;">FireFox</a> <a href="/tags/google/" style="font-size: 18px;">google</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a> <a href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" style="font-size: 20px;">免費資源</a> <a href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" style="font-size: 14px;">好康資訊</a> <a href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" style="font-size: 14px;">教學文章</a> <a href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" style="font-size: 12px;">線上新聞</a> <a href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" style="font-size: 14px;">軟體分享</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/04/">April 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/08/">August 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/04/">April 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/02/">February 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/12/">December 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/11/">November 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/11/">November 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/09/">September 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/07/">July 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/06/">June 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/05/">May 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/04/">April 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/03/">March 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/02/">February 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/01/">January 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/03/">March 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/02/">February 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/11/">November 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/09/">September 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/12/">December 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/11/">November 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2004/12/">December 2004</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/24/My-New-Post/">My New Post</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/21/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/11/facebook/">facebook</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/activity/">Activity</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/login/">Login</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>在Blogger Beta使用Lightbox顯示圖片 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Lightbox是一種滿炫的效果，點擊網頁上的圖片或連結後，背景彷彿電影要開演前一樣變暗，然後顯示Loading的訊息，接著就顯示出內容（圖片或網頁）。檢視實際效果請點下圖。      目前blog上使用的Lightbox套件很多，這裡所選用的是「Lightbox JS v2.0 by Lokesh Dhakar」並加以修改部份圖片的網址。   為了讓大家能夠快速的使用，我已經做好修改並於在「Go">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在Blogger Beta使用Lightbox顯示圖片">
+<meta property="og:url" content="http://example.com/2008/11/16/%E5%9C%A8blogger-beta%E4%BD%BF%E7%94%A8lightbox%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%87/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Lightbox是一種滿炫的效果，點擊網頁上的圖片或連結後，背景彷彿電影要開演前一樣變暗，然後顯示Loading的訊息，接著就顯示出內容（圖片或網頁）。檢視實際效果請點下圖。      目前blog上使用的Lightbox套件很多，這裡所選用的是「Lightbox JS v2.0 by Lokesh Dhakar」並加以修改部份圖片的網址。   為了讓大家能夠快速的使用，我已經做好修改並於在「Go">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg">
+<meta property="og:image" content="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg">
+<meta property="og:image" content="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg">
+<meta property="article:published_time" content="2008-11-16T13:15:00.000Z">
+<meta property="article:modified_time" content="2023-01-28T19:27:53.728Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-在blogger-beta使用lightbox顯示圖片" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2008/11/16/%E5%9C%A8blogger-beta%E4%BD%BF%E7%94%A8lightbox%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%87/" class="article-date">
+  <time class="dt-published" datetime="2008-11-16T13:15:00.000Z" itemprop="datePublished">2008-11-16</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Blogger/">Blogger</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      在Blogger Beta使用Lightbox顯示圖片
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Lightbox是一種滿炫的效果，點擊網頁上的圖片或連結後，背景彷彿電影要開演前一樣變暗，然後顯示Loading的訊息，接著就顯示出內容（圖片或網頁）。檢視實際效果請點下圖。  </p>
+<p><a target="_blank" rel="noopener" href="http://img228.imageshack.us/img228/6883/104357ao3.jpg" title="http://photodom.com/showfoto.php?id=15&amp;fotoid=104357"><img src="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg" alt="Free Image Hosting at www.ImageShack.us"></a>  </p>
+<p>目前blog上使用的Lightbox套件很多，這裡所選用的是「<a target="_blank" rel="noopener" href="http://www.huddletogether.com/projects/lightbox2/">Lightbox JS v2.0 by Lokesh Dhakar</a>」並加以修改部份圖片的網址。  </p>
+<p>為了讓大家能夠快速的使用，我已經做好修改並於在「<a target="_blank" rel="noopener" href="http://pages.google.com/">Google Page</a>」上，只要依照以下步驟您就可以立即擁有Lightbox的效果！  </p>
+<p>Step 1. 修改 Template  </p>
+<p>進「Template＼Edit HTML」的畫面。請先備份（點擊 Download Full Template）。找到以下代碼。  </p>
+<p>]]&gt;   </p>
+<p>然後插入以下代碼，詳細情形請點<a target="_blank" rel="noopener" href="http://img137.imageshack.us/img137/184/20060924avs1.jpg">這裡</a>觀看。  </p>
+<link href='http://klcintw.css.googlepages.com/lightbox.css' media='screen' rel='stylesheet' type='text/css'/><br /><br /><br />  
+
+  
+
+<p>Step 2. 修改 Post  </p>
+<p>在要套用Lightbox效果的圖片或連結加上「rel&#x3D;”lightbox”」並將href指向要顯示的內容url。如上面的範例中，小圖的url是<a target="_blank" rel="noopener" href="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg%EF%BC%8C%E8%80%8C%E5%A4%A7%E5%9C%96%E7%9A%84url%E6%98%AFhref=%22http://img228.imageshack.us/img228/6883/104357ao3.jpg%EF%BC%8C%E5%AE%8C%E6%95%B4%E7%9A%84HTML%E4%BB%A3%E7%A2%BC%E5%A6%82%E4%B8%8B%EF%BC%9A">http://img228.imageshack.us/img228/6883/104357ao3.th.jpg，而大圖的url是href=&quot;http://img228.imageshack.us/img228/6883/104357ao3.jpg，完整的HTML代碼如下：</a>  </p>
+<p><a target="_blank" href="http://img228.imageshack.us/img228/6883/104357ao3.jpg" rel="lightbox noopener"><img src="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg" /></a><br>更多Lightbox的運用（如多圖顯示）請參考「<a target="_blank" rel="noopener" href="http://www.huddletogether.com/projects/lightbox2/">Lightbox JS v2.0</a>」或「<a target="_blank" rel="noopener" href="http://swf.com.tw/?p=76">swf.com.tw » 使用LightBox展示線上影像</a>」的介紹。<a target="_blank" rel="noopener" href="http://img228.imageshack.us/img228/6883/104357ao3.jpg"><img src="http://img228.imageshack.us/img228/6883/104357ao3.th.jpg"></a>  </p>
+<p>更正 <a target="_blank" rel="noopener" href="http://teaegg.twbbs.org/">teaegg</a> 提出的問題：發現一個bug，用首頁最下面「較舊的文章」裡頭所看到之前文章的圖片，Lightbox的效果會出不來。請問有沒有解決方法？  </p>
+<p>修改範本  </p>
+<p>在前面加上以下片段。  </p>
+<p>by rengo</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2008/11/16/%E5%9C%A8blogger-beta%E4%BD%BF%E7%94%A8lightbox%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%87/" data-id="cldgcka5t007lr884cp5jcxtf" data-title="在Blogger Beta使用Lightbox顯示圖片" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2008/11/16/%E5%9C%A8blogger-beta%E4%BD%BF%E7%94%A8lightbox%E9%A1%AF%E7%A4%BA%E5%9C%96%E7%89%87-2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          在Blogger Beta使用Lightbox顯示圖片
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2008/11/15/firefoxy-%E5%84%AA%E5%8C%96-2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">firefoxy 優化</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/1/">1</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blogger/">Blogger</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/FireFox/">FireFox</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Google/">Google</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/uncategorized/">uncategorized</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/xp/">xp</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/">免費資源</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/">好康資訊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E5%AF%B6%E5%BA%AB%E5%8D%80/">教學寶庫區</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/">教學文章</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/">未分類</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/">線上新聞</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blogger/" rel="tag">Blogger</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/FireFox/" rel="tag">FireFox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google/" rel="tag">google</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xp/" rel="tag">xp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" rel="tag">免費資源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" rel="tag">好康資訊</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" rel="tag">教學文章</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" rel="tag">線上新聞</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" rel="tag">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Blogger/" style="font-size: 16px;">Blogger</a> <a href="/tags/FireFox/" style="font-size: 14px;">FireFox</a> <a href="/tags/google/" style="font-size: 18px;">google</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a> <a href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" style="font-size: 20px;">免費資源</a> <a href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" style="font-size: 14px;">好康資訊</a> <a href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" style="font-size: 14px;">教學文章</a> <a href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" style="font-size: 12px;">線上新聞</a> <a href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" style="font-size: 14px;">軟體分享</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/04/">April 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/08/">August 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/04/">April 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/02/">February 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/12/">December 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/11/">November 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/11/">November 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/09/">September 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/07/">July 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/06/">June 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/05/">May 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/04/">April 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/03/">March 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/02/">February 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/01/">January 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/03/">March 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/02/">February 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/11/">November 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/09/">September 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/12/">December 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/11/">November 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2004/12/">December 2004</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/24/My-New-Post/">My New Post</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/21/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/11/facebook/">facebook</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/activity/">Activity</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/login/">Login</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

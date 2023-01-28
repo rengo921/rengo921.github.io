@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>繼續閱讀懶人加強版 - [版本2.x]參數設定說明 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="可設定部份為程式碼後段，如下所示紅色字的部份    &#96;   EasyReadMoreSettings.Enabled &#x3D; true;EasyReadMoreSettings.Read_More_Mode &#x3D; ‘mix’;EasyReadMoreSettings.Mode_Auto_MaxLine &#x3D; 3;EasyReadMoreSettings.Mode_Cu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="繼續閱讀懶人加強版 - [版本2.x]參數設定說明">
+<meta property="og:url" content="http://example.com/2008/04/17/%E7%B9%BC%E7%BA%8C%E9%96%B1%E8%AE%80%E6%87%B6%E4%BA%BA%E5%8A%A0%E5%BC%B7%E7%89%88-%E7%89%88%E6%9C%AC2-x%E5%8F%83%E6%95%B8%E8%A8%AD%E5%AE%9A%E8%AA%AA%E6%98%8E-2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="可設定部份為程式碼後段，如下所示紅色字的部份    &#96;   EasyReadMoreSettings.Enabled &#x3D; true;EasyReadMoreSettings.Read_More_Mode &#x3D; ‘mix’;EasyReadMoreSettings.Mode_Auto_MaxLine &#x3D; 3;EasyReadMoreSettings.Mode_Cu">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2008-04-16T23:40:00.000Z">
+<meta property="article:modified_time" content="2023-01-28T19:27:53.527Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="Blogger">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-繼續閱讀懶人加強版-版本2-x參數設定說明-2" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2008/04/17/%E7%B9%BC%E7%BA%8C%E9%96%B1%E8%AE%80%E6%87%B6%E4%BA%BA%E5%8A%A0%E5%BC%B7%E7%89%88-%E7%89%88%E6%9C%AC2-x%E5%8F%83%E6%95%B8%E8%A8%AD%E5%AE%9A%E8%AA%AA%E6%98%8E-2/" class="article-date">
+  <time class="dt-published" datetime="2008-04-16T23:40:00.000Z" itemprop="datePublished">2008-04-17</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/uncategorized/">uncategorized</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      繼續閱讀懶人加強版 - [版本2.x]參數設定說明
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>可設定部份為程式碼後段，如下所示紅色字的部份  </p>
+<blockquote>
+<p>&#96;  </p>
+<p>EasyReadMoreSettings.Enabled &#x3D; true;<br>EasyReadMoreSettings.Read_More_Mode &#x3D; ‘mix’;<br>EasyReadMoreSettings.Mode_Auto_MaxLine &#x3D; 3;<br>EasyReadMoreSettings.Mode_Custom_Tag_Type &#x3D; ‘text’;<br>EasyReadMoreSettings.Mode_Custom_Tag_Expr &#x3D; ‘<strong>#<strong><strong>#<strong>ReadMore</strong>#</strong></strong>#</strong>‘;<br>EasyReadMoreSettings.Link_Style &#x3D; ‘directlink’;<br>EasyReadMoreSettings.Link_Text &#x3D; ‘…繼續閱讀’;<br>EasyReadMoreSettings.Link_Text_title &#x3D; ‘繼續閱讀’;<br>EasyReadMoreSettings.Collapse_Link_Text &#x3D; ‘顯示摘要…’;<br>EasyReadMoreSettings.Collapse_Link_Text_title &#x3D; ‘顯示摘要’;<br>EasyReadMoreSettings.Collapse_MoveToEnd &#x3D; false;<br>EasyReadMoreSettings.Index_Page_Style &#x3D; ‘abstract’;<br>EasyReadMoreSettings.Tag_Page_Style &#x3D; ‘title’;<br>EasyReadMoreSettings.Archive_Page_Style &#x3D; ‘title’;<br>EasyReadMoreSettings.Controller_Enabled &#x3D; true;<br>EasyReadMoreSettings.Controller_Default_Position &#x3D; true;<br>EasyReadMoreSettings.Controller_Splitter &#x3D; ‘ ‘;<br>EasyReadMoreSettings.Controller_Full_Text &#x3D; ‘完整’;<br>EasyReadMoreSettings.Controller_Abstract_Text &#x3D; ‘摘要’;<br>EasyReadMoreSettings.Controller_Title_Text &#x3D; ‘標題’;<br>EasyReadMoreSettings.ShowFullPost_Tag &#x3D; ‘##ShowAll##’;  </p>
+<p>EasyReadMore.main()&#96;  </p>
+</blockquote>
+<p>按順序逐一說明如下：<br>1.縮文(繼續閱讀)模式設定(預設值：mix模式)</p>
+<ul>
+<li>Auto模式：EasyReadMoreSettings.Read_More_Mode &#x3D; ‘auto’;</li>
+<li>Custom模式：EasyReadMoreSettings.Read_More_Mode &#x3D; ‘custom’;</li>
+<li>Mix模式：EasyReadMoreSettings.Read_More_Mode &#x3D; ‘mix’;</li>
+</ul>
+<p>2.Auto模式下，文章最大行數(超過就自動縮文) (預設值：3行)<br>EasyReadMoreSettings.Mode_Auto_MaxLine &#x3D; 3;<br>數字’3’改成想要的行數即可  </p>
+<p>3.Custom模式下，代表繼續閱讀的特殊符號(預設值：##ReadMore##)<br>支援阿土伯版本的符號(##CONTINUE##)<br>以及一般常見的 或  </p>
+<p>範例：<br>相容阿土伯版本的符號<br>EasyReadMoreSettings.Mode_Custom_Tag_Type &#x3D; ‘text’;<br>EasyReadMoreSettings.Mode_Custom_Tag_Expr &#x3D; ‘##CONTINUE##’;  </p>
+<p>相容<br>EasyReadMoreSettings.Mode_Custom_Tag_Type &#x3D; ‘id’;<br>EasyReadMoreSettings.Mode_Custom_Tag_Expr &#x3D; ‘fullpost’;  </p>
+<p>相容<br>EasyReadMoreSettings.Mode_Custom_Tag_Type &#x3D; ‘class’;<br>EasyReadMoreSettings.Mode_Custom_Tag_Expr &#x3D; ‘fullpost’;  </p>
+<p>4.設定繼續閱讀連結樣式(預設值：directlink(直接連結))  </p>
+<ul>
+<li>直接連結：EasyReadMoreSettings.Link_Style &#x3D; ‘directlink’;</li>
+<li>展開&#x2F;收合：EasyReadMoreSettings.Link_Style &#x3D; ‘collapsible’;</li>
+</ul>
+<p>5.設定繼續閱讀按鈕顯示文字，以及連結的title屬性<br>顯示文字：<br>EasyReadMoreSettings.Link_Text &#x3D; ‘…繼續閱讀’;<br>連結title屬性：<br>EasyReadMoreSettings.Link_Text_title &#x3D; ‘繼續閱讀’;  </p>
+<p>6.設定收合按鈕顯示文字，以及連結的title屬性（只有在樣式設定為「展開&#x2F;收合」時才有效)<br>顯示文字：<br>EasyReadMoreSettings.Collapse_Link_Text &#x3D; ‘顯示摘要…’;<br>連結title屬性：<br>EasyReadMoreSettings.Collapse_Link_Text_title &#x3D; ‘顯示摘要’;  </p>
+<p>7.文章展開後，收合按鈕是否移動（只有在樣式設定為「展開&#x2F;收合」時才有效)(預設值：不移動)<br>不移動，取代繼續閱讀按鈕<br>EasyReadMoreSettings.Collapse_MoveToEnd &#x3D; false;<br>繼續閱讀按鈕消失，收合按鈕出現在文章最後<br>EasyReadMoreSettings.Collapse_MoveToEnd &#x3D; true;  </p>
+<p>8.設定各頁面預設顯示方式，有三種：  </p>
+<ul>
+<li>繼續閱讀(摘要) - abstract</li>
+<li>只有標題 - title</li>
+<li>全文 - full</li>
+</ul>
+<p>設定blog首頁：(預設值：摘要)<br>EasyReadMoreSettings.Index_Page_Style &#x3D; ‘abstract’;<br>設定標籤(tag)分類頁：(預設值：標題)<br>EasyReadMoreSettings.Tag_Page_Style &#x3D; ‘title’;<br>設定blog存檔(archive)分類頁：(預設值：標題)<br>EasyReadMoreSettings.Archive_Page_Style &#x3D; ‘title’;  </p>
+<p>9.是否啟用快速切換按鈕(預設值：啟用)  </p>
+<ul>
+<li>啟用：EasyReadMoreSettings.Controller_Enabled &#x3D; true;</li>
+<li>停用：EasyReadMoreSettings.Controller_Enabled &#x3D; false;</li>
+</ul>
+<p>10.快速切換按鈕是否放在預設位置(在文章列表的頭和尾各顯示一個)(預設值：是)<br>放在預設位置：<br>EasyReadMoreSettings.Controller_Default_Position &#x3D; true;<br>自訂位置(需自行修改範本html)：<br>EasyReadMoreSettings.Controller_Default_Position &#x3D; false;  </p>
+<p>註1：可用css操控快速切換按鈕，class為”read-more-controller”<br>註2：若要自訂顯示位置，請在範本的html內想要擺放的位置上插入：  </p>
+<p>快速切換按鈕會自動加在裡面  </p>
+<p>11.自訂快速切換按鈕的分隔符號(預設值： )<br>EasyReadMoreSettings.Controller_Splitter &#x3D; ‘ ‘;<br>修改紅色字部份即可  </p>
+<p>12.修改快速切換按鈕的顯示文字<br>完整模式的顯示文字：<br>EasyReadMoreSettings.Controller_Full_Text &#x3D; ‘完整’;<br>摘要模式的顯示文字：<br>EasyReadMoreSettings.Controller_Abstract_Text &#x3D; ‘摘要’;<br>標題模式的顯示文字：<br>EasyReadMoreSettings.Controller_Title_Text &#x3D; ‘標題’;  </p>
+<p>13.設定文章為「顯示全文」(不縮文)的特殊符號(預設值：##ShowAll##)<br>在文章的任意地方，插入此特殊符號，則該篇文章就會被略過(不執行縮文動作)  </p>
+<p>可自訂特殊符號<br>EasyReadMoreSettings.ShowFullPost_Tag &#x3D; ‘##ShowAll##’;<br>修改紅色字部份即可</p>
+<p>by rengo</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2008/04/17/%E7%B9%BC%E7%BA%8C%E9%96%B1%E8%AE%80%E6%87%B6%E4%BA%BA%E5%8A%A0%E5%BC%B7%E7%89%88-%E7%89%88%E6%9C%AC2-x%E5%8F%83%E6%95%B8%E8%A8%AD%E5%AE%9A%E8%AA%AA%E6%98%8E-2/" data-id="cldgcka97009yr88491lh3dw4" data-title="繼續閱讀懶人加強版 - [版本2.x]參數設定說明" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Blogger/" rel="tag">Blogger</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2008/04/19/podcasting/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Podcasting
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2008/04/17/%E7%B9%BC%E7%BA%8C%E9%96%B1%E8%AE%80%E6%87%B6%E4%BA%BA%E5%8A%A0%E5%BC%B7%E7%89%88-%E7%89%88%E6%9C%AC2-x%E5%8F%83%E6%95%B8%E8%A8%AD%E5%AE%9A%E8%AA%AA%E6%98%8E/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">繼續閱讀懶人加強版 - [版本2.x]參數設定說明</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/1/">1</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blogger/">Blogger</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/FireFox/">FireFox</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Google/">Google</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/uncategorized/">uncategorized</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/xp/">xp</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/">免費資源</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/">好康資訊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E5%AF%B6%E5%BA%AB%E5%8D%80/">教學寶庫區</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/">教學文章</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/">未分類</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/">線上新聞</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blogger/" rel="tag">Blogger</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/FireFox/" rel="tag">FireFox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google/" rel="tag">google</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xp/" rel="tag">xp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" rel="tag">免費資源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" rel="tag">好康資訊</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" rel="tag">教學文章</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" rel="tag">線上新聞</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" rel="tag">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Blogger/" style="font-size: 16px;">Blogger</a> <a href="/tags/FireFox/" style="font-size: 14px;">FireFox</a> <a href="/tags/google/" style="font-size: 18px;">google</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a> <a href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" style="font-size: 20px;">免費資源</a> <a href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" style="font-size: 14px;">好康資訊</a> <a href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" style="font-size: 14px;">教學文章</a> <a href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" style="font-size: 12px;">線上新聞</a> <a href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" style="font-size: 14px;">軟體分享</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/04/">April 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/08/">August 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/04/">April 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/02/">February 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/12/">December 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/11/">November 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/11/">November 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/09/">September 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/07/">July 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/06/">June 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/05/">May 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/04/">April 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/03/">March 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/02/">February 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/01/">January 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/03/">March 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/02/">February 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/11/">November 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/09/">September 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/12/">December 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/11/">November 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2004/12/">December 2004</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/24/My-New-Post/">My New Post</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/21/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/11/facebook/">facebook</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/activity/">Activity</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/login/">Login</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

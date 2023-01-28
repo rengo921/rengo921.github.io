@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>twbbs.org / everydns / google apps 完美結合 I | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="twbbs.org 改版後增加了一些重要的功能，讓我能成功整合 Google APPs 又省去繁瑣的 DNS 設定。關於 Google Apps 的設定網上有一堆，找一下就有了。而純敏達康中有說明一些設定的概念，可以參考一下。就讓我來說明如何設定：1. 註冊新 twbbs 網域， 你需要一個申請一個帳號，用來註冊網域。有三個網域可選擇：twbbs.org, twgg.org, cnkk.org我註">
+<meta property="og:type" content="article">
+<meta property="og:title" content="twbbs.org &#x2F; everydns &#x2F; google apps 完美結合 I">
+<meta property="og:url" content="http://example.com/2008/05/02/twbbs-org-everydns-google-apps-%E5%AE%8C%E7%BE%8E%E7%B5%90%E5%90%88-i/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="twbbs.org 改版後增加了一些重要的功能，讓我能成功整合 Google APPs 又省去繁瑣的 DNS 設定。關於 Google Apps 的設定網上有一堆，找一下就有了。而純敏達康中有說明一些設定的概念，可以參考一下。就讓我來說明如何設定：1. 註冊新 twbbs 網域， 你需要一個申請一個帳號，用來註冊網域。有三個網域可選擇：twbbs.org, twgg.org, cnkk.org我註">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://lh3.ggpht.com/yp0312/SBCthK2CdRI/AAAAAAAAAD0/xoG7jqfzpvQ/s400/yp312-twbbs.jpg">
+<meta property="og:image" content="http://lh3.ggpht.com/yp0312/SBCthK2CdSI/AAAAAAAAAD8/Kj3IReLHuKQ/s400/yp312-edns01.jpg">
+<meta property="og:image" content="http://lh3.ggpht.com/yp0312/SBCthK2CdTI/AAAAAAAAAEE/zTB4YXcqOSQ/s400/yp312-edns02.jpg">
+<meta property="og:image" content="http://lh3.ggpht.com/yp0312/SBCuOK2CdWI/AAAAAAAAAEk/eGFVCp4TRtA/s400/yp312-edns04.jpg">
+<meta property="og:image" content="http://lh3.ggpht.com/yp0312/SBCuOK2CdXI/AAAAAAAAAEs/TbpE-lY-9Nw/s400/yp312-edns05.jpg">
+<meta property="og:image" content="http://lh3.ggpht.com/yp0312/SBCthK2CdUI/AAAAAAAAAEM/UD355Q2JJhg/s400/yp312-edns03.jpg">
+<meta property="article:published_time" content="2008-05-02T11:42:00.000Z">
+<meta property="article:modified_time" content="2023-01-28T19:27:53.626Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://lh3.ggpht.com/yp0312/SBCthK2CdRI/AAAAAAAAAD0/xoG7jqfzpvQ/s400/yp312-twbbs.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-twbbs-org-everydns-google-apps-完美結合-i" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2008/05/02/twbbs-org-everydns-google-apps-%E5%AE%8C%E7%BE%8E%E7%B5%90%E5%90%88-i/" class="article-date">
+  <time class="dt-published" datetime="2008-05-02T11:42:00.000Z" itemprop="datePublished">2008-05-02</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Google/">Google</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      twbbs.org / everydns / google apps 完美結合 I
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p><a target="_blank" rel="noopener" href="http://twbbs.org/">twbbs.org</a> 改版後增加了一些重要的功能，讓我能成功整合 Google APPs 又省去繁瑣的 DNS 設定。關於 Google Apps 的設定網上有一堆，找一下就有了。而<a target="_blank" rel="noopener" href="http://www.chunmin.com/archives/34">純敏達康</a>中有說明一些設定的概念，可以參考一下。<br>就讓我來說明如何設定：<br>1. <a target="_blank" rel="noopener" href="http://twbbs.org/?q=bbs_register">註冊新 twbbs 網域</a>， 你需要一個申請一個帳號，用來註冊網域。有三個網域可選擇：<br>twbbs.org, twgg.org, cnkk.org<br>我註冊的就是 yp312.twbbs.org<br>2. <a target="_blank" rel="noopener" href="http://twbbs.org/?q=node/24">使用免費的 DNS 主機服務，管理您的 twbbs.org</a><br>將 ns1.everydns.net 及 ns2.everydns.net 的 ip 填入，並在你的 domain 前加上 ns1 &#x2F; ns2<br>設定好按更新<br><img src="http://lh3.ggpht.com/yp0312/SBCthK2CdRI/AAAAAAAAAD0/xoG7jqfzpvQ/s400/yp312-twbbs.jpg"><br>3. 設定 everydns.net<br><a target="_blank" rel="noopener" href="http://www.everydns.net/">http://www.everydns.net/</a> 申請帳號。<br>在左側的 add new domain 內輸入你的 xxx.twbbs.org 的 domain.<br>好了按 &gt;&gt; basic<br><img src="http://lh3.ggpht.com/yp0312/SBCthK2CdSI/AAAAAAAAAD8/Kj3IReLHuKQ/s400/yp312-edns01.jpg"><br>在新增 Domain 區上面那個區塊的 primary domains 會出現你剛輸入的 xxx.twbbs.org.<br>點一下 xxx.twbbs.org 就可以在右邊的區塊更改詳細的設定（如下下圖）。<br><img src="http://lh3.ggpht.com/yp0312/SBCthK2CdTI/AAAAAAAAAEE/zTB4YXcqOSQ/s400/yp312-edns02.jpg"><br>一開始會出現兩列設定，在 xxx.twbbs.org 的 value 內會顯示你現在的 ip, 而 <a target="_blank" rel="noopener" href="http://www.xxx.twbbs.org/">www.xxx.twbbs.org</a> 系統會自訂轉到 parked.everydns.net ，這兩列之後都要刪掉，是沒有用的。<br><img src="http://lh3.ggpht.com/yp0312/SBCuOK2CdWI/AAAAAAAAAEk/eGFVCp4TRtA/s400/yp312-edns04.jpg"><br>你可以在 add a record 區內輸入你需要的資料後，點 add record 後，你輸的東西就會出現在上面的區塊中。注意一點，xxx.twbbs.org 的 record type 一定要是 A, 而 record value 是他的 ip. 若是 dyanmic ip 需要查一下如何設才行（我有個固定 ip 可用）。<br>或許可以設成 66.249.81.121 (ghs.google.com 的 ip…，我沒試…不敢保證，有試的人可告訴我結果。）<br><img src="http://lh3.ggpht.com/yp0312/SBCuOK2CdXI/AAAAAAAAAEs/TbpE-lY-9Nw/s400/yp312-edns05.jpg"><br>4. 啟用並設定 Google APPs<br>啟用：<a target="_blank" rel="noopener" href="http://www.google.com/a/help/intl/zh-TW/admins/editions_spe.html">http://www.google.com/a/help/intl/zh-TW/admins/editions_spe.html</a><br><a target="_blank" rel="noopener" href="http://s9011514.googlepages.com/apply_google_apps.htm">Google Apps 申請教學</a><br>因為 DNS 的更新還算快，所以你可以選 cname 的方式更新。<br>domain verify 後，就算完成 90%. 剩下就看你要不要把 google 的各個 service 都弄個 domain name 如 mail.xxx.twbbs.org 之類的。你可以參考我下面的設定<br>5. 下面是我所有的設定。可以先把 dns 設好，再去 active 各個 google service 並 modify url 改成你要的 domain.<br><img src="http://lh3.ggpht.com/yp0312/SBCthK2CdUI/AAAAAAAAAEM/UD355Q2JJhg/s400/yp312-edns03.jpg"><br>6. mail 的設定可參考如下：就是將 record type 改成 MX，而你的 domain 就是 xxx.twbbs.org<br>設完過幾分之後就可以寄信看看。</p>
+<blockquote>
+<p>Fully Qualified Domain Name<br>(enter your domain)</p>
+<p>Record Type<br>MX</p>
+<p>Record Value:<br>ASPMX.L.GOOGLE.COM.</p>
+<p>If MX Record, MX Value:<br>1</p>
+</blockquote>
+<blockquote>
+<p>Record Value:<br>If MX Record, MX Value:</p>
+<p>ALT1.ASPMX.L.GOOGLE.COM.<br>5</p>
+<p>ALT2.ASPMX.L.GOOGLE.COM.<br>5</p>
+<p>ASPMX2.GOOGLEMAIL.COM.<br>10</p>
+<p>ASPMX3.GOOGLEMAIL.COM.<br>10</p>
+<p>ASPMX4.GOOGLEMAIL.COM.<br>10</p>
+<p>ASPMX5.GOOGLEMAIL.COM.<br>10</p>
+</blockquote>
+<p>by rengo</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2008/05/02/twbbs-org-everydns-google-apps-%E5%AE%8C%E7%BE%8E%E7%B5%90%E5%90%88-i/" data-id="cldgcka42005zr884gllqg9kf" data-title="twbbs.org / everydns / google apps 完美結合 I" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2008/05/02/twbbs-org-everydns-google-apps-%E5%AE%8C%E7%BE%8E%E7%B5%90%E5%90%88-i-2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          twbbs.org / everydns / google apps 完美結合 I
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2008/05/02/showmypc-%E9%81%A0%E7%AB%AF%E9%80%A3%E7%B7%9A%E8%BB%9F%E9%AB%94-2-2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">ShowMyPC 遠端連線軟體</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/1/">1</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Blogger/">Blogger</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/FireFox/">FireFox</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Google/">Google</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/uncategorized/">uncategorized</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/xp/">xp</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/">免費資源</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/">好康資訊</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E5%AF%B6%E5%BA%AB%E5%8D%80/">教學寶庫區</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/">教學文章</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/">未分類</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/">線上新聞</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Blogger/" rel="tag">Blogger</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/FireFox/" rel="tag">FireFox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/google/" rel="tag">google</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xp/" rel="tag">xp</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" rel="tag">免費資源</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" rel="tag">好康資訊</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" rel="tag">教學文章</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" rel="tag">線上新聞</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" rel="tag">軟體分享</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Blogger/" style="font-size: 16px;">Blogger</a> <a href="/tags/FireFox/" style="font-size: 14px;">FireFox</a> <a href="/tags/google/" style="font-size: 18px;">google</a> <a href="/tags/xp/" style="font-size: 10px;">xp</a> <a href="/tags/%E5%85%8D%E8%B2%BB%E8%B3%87%E6%BA%90/" style="font-size: 20px;">免費資源</a> <a href="/tags/%E5%A5%BD%E5%BA%B7%E8%B3%87%E8%A8%8A/" style="font-size: 14px;">好康資訊</a> <a href="/tags/%E6%95%99%E5%AD%B8%E6%96%87%E7%AB%A0/" style="font-size: 14px;">教學文章</a> <a href="/tags/%E7%B7%9A%E4%B8%8A%E6%96%B0%E8%81%9E/" style="font-size: 12px;">線上新聞</a> <a href="/tags/%E8%BB%9F%E9%AB%94%E5%88%86%E4%BA%AB/" style="font-size: 14px;">軟體分享</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/06/">June 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/04/">April 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/08/">August 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/04/">April 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2010/02/">February 2010</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/12/">December 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2009/11/">November 2009</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/11/">November 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/09/">September 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/07/">July 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/06/">June 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/05/">May 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/04/">April 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/03/">March 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/02/">February 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2008/01/">January 2008</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/03/">March 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2007/02/">February 2007</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/11/">November 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2006/09/">September 2006</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/12/">December 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2005/11/">November 2005</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2004/12/">December 2004</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/24/My-New-Post/">My New Post</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/21/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/11/facebook/">facebook</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/activity/">Activity</a>
+          </li>
+        
+          <li>
+            <a href="/2020/12/09/login/">Login</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
